@@ -1,14 +1,8 @@
 
 {
   "functions": {
-    "api/rss.js": {
-      "runtime": "@vercel/node@18"
+    "api/*.js": {
+      "runtime": "@vercel/node@3.0.7"
     }
-  },
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    }
-  ]
+  }
 }
