@@ -1,0 +1,18 @@
+
+{
+  "name": "rss-monitor-backend",
+  "version": "1.0.0",
+  "description": "RSS feed monitoring backend API",
+  "main": "api/rss.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed'",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
